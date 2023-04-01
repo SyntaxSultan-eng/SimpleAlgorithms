@@ -9,6 +9,9 @@ array = []
 for _ in range(N):
     array.append(randint(lower, upper)) # Creating an array using randomint, which asks for the lower and upper bounds of the numbers
 
+print("This is an unsorted array:")
+print(array)
+
 time1 = time.time() # Marking the beginning of the algorithm
 
 ######This is a BubbleSort###############
