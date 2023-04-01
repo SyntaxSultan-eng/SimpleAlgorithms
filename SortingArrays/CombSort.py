@@ -36,4 +36,20 @@ print(array)
 print("This is the running time of this algorithm:")
 print(Comb_time)
         
+# This is an algorithm function for easy use in other projects
+'''
+def ShakerSort(array):
 
+    length = len(array)
+    rightside = length
+
+    while rightside > 1:
+        rightside -= 1
+        for num in range(length - rightside):   
+            endnum = num + rightside            
+            if array[num] > array[endnum]:      
+                array[num], array[endnum] = array[endnum], array[num]
+
+    return array
+
+'''
