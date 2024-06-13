@@ -1,4 +1,4 @@
-#This is my implementation of a priority queue that sorts the queue by priority
+#This is my implementation of a priority queue that adds by priority
 
 ##################### This is PriorityQueue1 #######################################
 class PriorityQueue1:
